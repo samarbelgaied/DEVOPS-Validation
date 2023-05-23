@@ -1,0 +1,12 @@
+version: '3'
+services:
+  devopsvalidation:
+    image: devopsvalidation
+    # Add any additional configuration for devopsvalidation service if required
+
+  mysql:
+    image: mysql/mysql-server
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: examv2
+      
